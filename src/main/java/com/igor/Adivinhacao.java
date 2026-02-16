@@ -11,8 +11,12 @@ public class Adivinhacao{
         int tentativasSobrando = 7;
         int tentativasUsadas = 0;
 
-        System.out.println("Jogo de adivinhação: ");
+        System.out.println("Jogo de adivinhação ");
+        System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+
         System.out.println();
+
+
 
         while (tentativasSobrando > 0){
             System.out.println("Digite um número entre 0 e 100:");
